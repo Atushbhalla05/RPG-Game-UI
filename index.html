@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="index.css" />
+    <title>GameMenu Prototype</title>
+</head>
+<body>
+    <script src="index.js" type="text/javascript"></script>
+    <div class="menuContainer">
+        <div class="left-column" id="left-column">
+            <div class="weapon" id="Weapon">Weapon</div>
+            <div class="left-subcategory" id="Helmet">Helmet</div>
+            <div class="left-subcategory" id="BreastPlate">BreastPlate</div>
+            <div class="left-subcategory" id="Gauntlets">Gauntlets</div>
+            <div class="left-subcategory" id="Greaves">Greaves</div>
+            <div class="left-subcategory" id="Boots">Boots</div>
+        </div>
+        <div class="middle-inventory">
+            <div class="subcategory-name" id="subcategory-name">Weapon</div>
+            <div class="inventory" id="inventoryMenu">
+
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="right-subcategory" id="Earrings">Earrings</div>
+            <div class="right-subcategory" id="Necklace">Necklace</div>
+            <div class="right-subcategory" id="Bracelet">Bracelet</div>
+            <div class="right-subcategory" id="Ring">Ring</div>
+        </div>
+    </div>
+        <div class="infoContainer">
+            <div class="equiped" id="equiped">
+                <lable>Equipped</lable>
+                <div class="itemSum">
+                    <div class="Eitem4Dis">equiped</div>
+                    <p id="Ename">current equiped item name</p>
+                </div>
+                <div class="Edescription">description and stat</div>
+                <button type="button" id="unequipBtn">Unequip</button>
+            </div>
+
+            <div class="selected" id="selected">
+                <lable>Selected</lable>
+                <div class="itemSum">
+                    <div class="item4Dis">selected</div>
+                    <p id="Sname">selected item name</p>
+                </div>
+                <div class="description">description and stat</div>
+                <button type="button" id="equipBtn">Equip</button>
+                <button type="button" id="dropBtn">Drop</button>
+            </div>
+        </div>
+</body>
+</html>

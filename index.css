@@ -1,0 +1,187 @@
+﻿body {
+    text-align: center;
+    background-color: lightgray;
+}
+
+.menuContainer {
+    display: flex;
+    border: 1px solid black;
+    width: 800px;
+    height: 800px;
+    margin: auto;
+    background-color: sandybrown;
+}
+
+.left-column {
+    vertical-align: top;
+    border: 1px solid black;
+    flex: .25;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle-inventory {
+    vertical-align: top;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.subcategory-name {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: tan;
+}
+
+.inventory {
+    display: inline-block;
+}
+
+.right-column {
+    vertical-align: top;
+    border: 1px solid black;
+    flex: .25;
+    display: flex;
+    flex-direction: column;
+}
+
+.left-subcategory {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: tan;
+}
+
+.weapon {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: tan;
+}
+
+.right-subcategory {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: tan;
+}
+
+
+.item {
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+}
+
+.infoContainer {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    min-height: 250px;
+    max-height: 400px;
+    margin: auto;
+}
+
+.equiped {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 800px;
+    height: 100%;
+    background-color: sandybrown;
+}
+
+.selected {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 800px;
+    height: 100%;
+    background-color: sandybrown;
+}
+
+button {
+    width: 100px;
+    height: 25px;
+    margin-left: 75%;
+}
+
+.itemSum {
+    margin-top: 25px;
+    border: 1px solid black;
+    width: 100%;
+    height: 60px;
+}
+
+.item4Dis {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    float: left;
+}
+
+.discription {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+.itemStat {
+    border: 1px solid black;
+    width: 100%;
+    height: 200px;
+    float: left;
+}
+
+.buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.Eitem4Dis {
+    border: 1px solid black;
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+    float: left;
+}
+
+.Ediscription {
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+
+lable {
+    font-size: 24pt;
+    color: black;
+}

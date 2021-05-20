@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="PM7.css" />
+    <script src="PM6.js"></script>
+    <title>Atush Bhalla, Danh Pham, Victor Jimenez - GameMenuTeam</title>
+</head>
+<body>
+    <div class="container">
+        <div class="left-column">
+            <div>
+                <h2 id="headerInformation">GameMenuTeam - Atush Bhalla, Danh Pham, Victor Jimenez</h2>
+            </div>
+            <div>
+                <h2 id="revisedDesign">Revised Design</h2>
+				<img src = "prototype.png" width = "600px">
+                <p>
+
+                </p>
+            </div>
+
+            <div>
+                <h2 id="prototypePresentation">Prototype Demonstration</h2>
+                
+            </div>
+
+            <div>
+                <h2 id="documentationArchitecture">Documentation: Architecture</h2>
+			<p>The prototype is designed using a Modle View View Modle architeture. The model of the inventory
+			uses a map with the key being the category name and the value being an array of the class Item. 
+			the Item class consist of a name and a breff discription for now, latter on the class will be expanded
+			with the name of a imgage file that will be use for the icons for the item. The view is all the elements
+			the user see on the interface (index.html). Each element on the interface will has an event listener 
+			that will wait for the user to interact with it. On the action, the model will change depending on what
+			the user interacted with. The arrays are limited to indexes 0-29, the 30th index is use to keep the track
+			of what the user has equiped. 
+			</p>
+            </div>
+
+            <div>
+                <h2 id="thirdPartyElements">Documentation: Third Party Elements Used</h2>
+                <p>None
+                </p>
+            </div>
+
+            <div>
+                <h2 id="differencesFromDesign">Documentation: Differences from Design</h2>
+                <p>The design is based on an MMORPG game, because of this we thought that the design should be simple and compact
+				allowing users to see what is going on in-game while interacting with the inventory interface. Also because MMORPG
+				games has massive range of items that user can pick up we thought that it might be a good idea to have each item 
+				be separated in different files and each icon be stored in a separate directory from the item files. We this ideal
+				was constant while developing our interface. We did not implement this as part of the design because we see the organization
+				of in-game assets as part of the overall game development and not just the inventory development. In our design we have
+				a section of the selected element is ment to show user a short discription and stat of a particular item. In the prototype
+				we did not include stat for any particular items in the inventory. In an actual MMORPG the stats are diverse and can be 
+				complicated for this reason we did not include stats for our inventory interface as the stats would be included in the
+				item file with the discription of the item. We did not see the need to add in possitive changes to stats when comparing 
+				items in the inventory as each item can have differnt stat that can change how the user play the game. In the original design
+				we intended to change the selected category icon in a way that would help user see what category they were on, however we did 
+				not implement it in the prototype because throught the multiple trials whe conducted, the major of user did not have a problem 
+				with recornizing the category they were on.
+			</p>
+            </div>
+
+            <div>
+                <h2 id="conclusionAndReflection">Project Conclusion and Reflection</h2>
+                <p>The most significant change that we could've made would have to be the placement of the current equiped and selected item elemet
+				of the design. We feel like by changing the placement of the elements could potentually affect how efficient the user could complet
+				the task. An example would be the having the elements close to where the selected item was and alinging the elements next to one 
+				another. This way the user does not have to travel far to complet the task and their eyes would follow the changes more naturally.
+				This will required some testing to compair the efficy of each placement to see if it has some significant impact on how fast the 
+				user could complet the task. We think the project was not very difficult, but the development process was very slow, with each
+				changes that we want to make and new feature to add we had to consider if the restrain allows us to do so. The most helpful design
+				decision and most important decision was if a particular implementation should be made by the design team or the development. We basicly
+				ask our self if we really have to implement this as part of the design or if this was part of a larger developing process. Because of 
+				this our final prototype looks still look like a work in progress. When designing this project we think of our self as part of larger
+				group devloping an idea. The design is only a small part of the overall idea so if we shut out all other factor and only focus on
+				making our part in a way that would complement the larger idea. We think that it is best to separate what could be done and what should 
+				be done because the different between then could be very large and could cause unnessicary bugs.
+                </p>
+            </div>
+        </div>
+        <div class="right-column">
+            <h3 class="bold">PM Navigation</h3>
+            <p id="p_link"><a href="#headerInformation" id="link">Header Information</a></p>
+            <p id="p_link"><a href="#revisedDesign" id="link">Revised Design</a></p>
+            <p id="p_link"><a href="#prototypePresentation" id="link">Prototype Demonstration</a></p>
+            <p id="p_link"><a href="#documentationArchitecture" id="link">Documentation: Architecture</a></p>
+            <p id="p_link"><a href="#thirdPartyElements" id="link">Documentation: Third Party Elements Used</a></p>
+            <p id="p_link"><a href="#differencesFromDesign" id="link">Documentation: Differences from Design</a></p>
+            <p id="p_link"><a href="#conclusionAndReflection" id="link">Project Conclusion and Reflection</a></p>
+        </div>
+    </div>
+</body>
+</html>
